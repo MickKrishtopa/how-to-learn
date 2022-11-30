@@ -1,0 +1,10 @@
+.cards__image {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-radius: 50%;
+  overflow: hidden;
+  height: 160px;
+  width: 160px;
+  margin: 0 auto 43px;
+}

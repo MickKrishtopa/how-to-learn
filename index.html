@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Научиться учиться</title>
-    <link rel="stylesheet" type="text/css" href="./styles/normalize.css" />
-    <link rel="stylesheet" type="text/css" href="./styles/style.css" />
+    <link rel="stylesheet" type="text/css" href="./vendor/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="./pages/index.css" />
   </head>
 
   <body>
@@ -64,10 +64,10 @@
         <div class="cards">
           <div class="cards__item">
             <div class="cards__image">
-              <img src="./images/cards-attention.png" alt="Attention" />
+              <img src="./images/cards-attention.png" alt="Внимание" />
             </div>
-            <h2 class="card__title">Два вида внимания</h2>
-            <p class="card__description">
+            <h2 class="cards__title">Два вида внимания</h2>
+            <p class="cards__description">
               Глубокие знания возникают, если чередовать сфокусированное и
               рассеянное мышление.
             </p>
@@ -75,10 +75,10 @@
 
           <div class="cards__item">
             <div class="cards__image">
-              <img src="./images/cards-recall.png" alt="recall" />
+              <img src="./images/cards-recall.png" alt="Воспоминания" />
             </div>
-            <h2 class="card__title">Recall</h2>
-            <p class="card__description">
+            <h2 class="cards__title">Recall</h2>
+            <p class="cards__description">
               Вспоминайте изученное — это позволит соединить разрозненные порции
               памяти.
             </p>
@@ -86,20 +86,20 @@
 
           <div class="cards__item">
             <div class="cards__image">
-              <img src="./images/cards-interliving.png" alt="recall" />
+              <img src="./images/cards-interliving.png" alt="Многозадачность" />
             </div>
-            <h2 class="card__title">Интерливинг</h2>
-            <p class="card__description">
+            <h2 class="cards__title">Интерливинг</h2>
+            <p class="cards__description">
               Изучайте несколько навыков одновременно, они обогащают друг друга.
             </p>
           </div>
 
           <div class="cards__item">
             <div class="cards__image">
-              <img src="./images/cards-question.png" alt="question" />
+              <img src="./images/cards-question.png" alt="Вопросы" />
             </div>
-            <h2 class="card__title">Вопросы</h2>
-            <p class="card__description">
+            <h2 class="cards__title">Вопросы</h2>
+            <p class="cards__description">
               Слушая преподавателя, придумывайте хороший вопрос, который вас
               действительно волнует.
             </p>
@@ -107,10 +107,10 @@
 
           <div class="cards__item">
             <div class="cards__image">
-              <img src="./images/cards-competence.png" alt="competence" />
+              <img src="./images/cards-competence.png" alt="Компетентность" />
             </div>
-            <h2 class="card__title">Иллюзия компетентности</h2>
-            <p class="card__description">
+            <h2 class="cards__title">Иллюзия компетентности</h2>
+            <p class="cards__description">
               Повторите про себя, запишите, расскажите другу: вам только
               кажется, что вы владеете новой темой.
             </p>
@@ -128,7 +128,6 @@
               height="316"
               src="https://www.youtube.com/embed/5MgBikgcWnY"
               title="YouTube video player"
-              frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             ></iframe>
@@ -139,7 +138,6 @@
               height="316"
               src="https://www.youtube.com/embed/arj7oStGLkU"
               title="YouTube video player"
-              frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             ></iframe>
@@ -242,7 +240,6 @@
           <div class="khan__book-container">
             <div class="khan__book-pic">
               <img
-                width="620px"
                 src="./images/khan-book.jpg"
                 alt="Обложка книги Весь мир - школа"
                 class="khan__book-pictures"
@@ -338,12 +335,16 @@
               ><img
                 class="resource__logo"
                 src="/images/logo/resources-arzamas.svg"
+                alt="Логоип Arzamas "
               />
             </a>
           </div>
           <div class="resources__link">
             <a href="#" class="resources__link"
-              ><img class="resource__logo" src="/images/logo/resources-n1.svg"
+              ><img
+                class="resource__logo"
+                alt="Логотип N1"
+                src="/images/logo/resources-n1.svg"
             /></a>
           </div>
           <div class="resources__link">
@@ -351,6 +352,7 @@
               ><img
                 class="resource__logo"
                 src="/images/logo/resources-strelka.svg"
+                alt="Логотип strelka"
             /></a>
           </div>
           <div class="resources__link">
@@ -358,6 +360,7 @@
               ><img
                 class="resource__logo"
                 src="/images/logo/resources-polka.svg"
+                alt="Логотип polka"
             /></a>
           </div>
         </div>
