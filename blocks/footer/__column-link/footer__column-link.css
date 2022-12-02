@@ -1,5 +1,5 @@
-.footer__colunm-link {
-  color: #f2f2f2;
+.footer__column-link {
+  color: #fff;
   text-decoration: none;
   line-height: 30px;
   font-size: 18px;
@@ -7,6 +7,6 @@
   transition: opacity 0.5s;
 }
 
-.footer__colunm-link:hover {
+.footer__column-link:hover {
   opacity: 0.5;
 }
